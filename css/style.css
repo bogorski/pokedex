@@ -1,0 +1,343 @@
+body {
+	background-color: #9C0000;
+}
+
+.container {
+	//background-color: white;
+	//#56181E
+}
+
+canvas {
+  width: 100%;
+  height: auto;
+  max-width: 350px;
+}
+
+.abilities {
+	background-color: #F5F5F4;
+}
+
+.bi-caret-down-fill {
+	font-size: 5em;
+}
+
+.bi-caret-right-fill {
+	font-size: 3em;
+}
+
+.listaInfo {
+	font-size: 1em;
+}
+
+.popover-header {
+	background-color: #356abc;
+	color: white;
+}
+
+.btn-popover {
+	//background-color: #356abc;
+	//color: white;
+	font-size: 1em;
+}
+
+.btn-popover:hover {
+	background-color: #ffcd00;
+	color: white;
+}
+
+.btn-popover:focus {
+	background-color: #ffcd00;
+	color: white;
+	box-shadow: none !important;
+}
+
+.btn-popover:after {
+	font-family: "Font Awesome 5 Free";
+	content: "\f059";
+	font-weight: 900;
+	position: absolute;
+	margin-left: 0.5em;
+	color: #356abc;
+}
+
+.btn-search {
+	background-color: #356abc;
+	color: white;
+}
+
+.error {
+	position: absolute;
+	top: 40px;
+	background-color: #ffcd00;
+	color: #356abc;
+    z-index: 10000;
+	margin-bottom: 5px;
+	font-size: 1em;
+	border-color: #356abc !important;
+	font-weight: bold;
+}
+
+.card {
+	cursor: pointer;
+}
+
+.mainDiv {
+	background-color: white;
+}
+/*
+.singlePokemonView{
+	background-color: white;
+}
+*/
+img {
+	cursor: pointer;
+}
+
+.buttonMoreResults {
+	font-size: 1.5em;
+	background-color: #356abc;
+	color: white;
+}
+
+.btn-next,
+.btn-back {
+	font-size: 1em;
+	background-color: #356abc;
+	color: white;
+	padding: 0.5em;
+	width: 100%;
+}
+
+.heading{
+	background-color: #9C0000;
+}
+#searchButton {
+	border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.circle {
+	border-radius: 50%;
+	background-color: #F5F5F4;
+	margin: auto;
+}
+
+button + p {
+	font-weight: bold;
+}
+
+.type {
+	border-radius: 10px;
+	font-size: 1em!important;
+}
+
+
+
+.nextEvolutionDesktop:after {
+	font-family: "Font Awesome 5 Free";
+	content: "\f0da";
+	display: inline-block;
+	vertical-align: middle;
+	font-weight: 900;
+	font-size: 5em;
+	position: absolute;
+	
+}
+
+.nextEvolutionDesktopEevee:after {
+	margin-top: 700px;
+}
+
+
+.fa-caret-down {
+	font-size: 5em;
+}
+
+p {
+	font-size: 1em;
+}
+
+.number {
+	font-size: 1em;
+	margin: 0;
+}
+
+.name {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.blackout {
+	background-color: gray;
+	opacity: 0.5;
+	position: fixed;
+    z-index: 10000;
+    width: 100vw;
+    height: 100vh;
+}
+
+/*types*/
+.normal {
+	background-color: #A8A878;
+	color: white;
+}
+
+.normal {
+	background-color: #A8A878;
+	color: white;
+}
+
+.fighting {
+	background-color: #C03028;
+	color: white;
+}
+
+.flying {
+	background-color: #A890F0;
+	color: white;
+}
+
+.poison {
+	background-color: #A040A0;
+	color: white;
+}
+
+.ground {
+	background-color: #E0C068;
+	color: white;
+}
+
+.rock {
+	background-color: #B8A038;
+	color: white;
+}
+
+.bug {
+	background-color: #A8B820;
+	color: white;
+}
+
+.ghost {
+	background-color: #705898;
+	color: white;
+}
+
+.steel {
+	background-color: #B8B8D0;
+	color: white;
+}
+
+.fire {
+	background-color: #F08030;
+	color: white;
+}
+
+.water {
+	background-color: #6890F0;
+	color: white;
+}
+.grass {
+	background-color: #78C850;
+	color: white;
+}
+
+.electric {
+	background-color: #F8D030;
+	color: white;
+}
+
+.psychic {
+	background-color: #F85888;
+	color: white;
+}
+
+.ice {
+	background-color: #98D8D8;
+	color: white;
+}
+
+.dragon {
+	background-color: #7038F8;
+	color: white;
+}
+
+.dark {
+	background-color: #705848;
+	color: white;
+}
+
+.fairy {
+	background-color: #EE99AC;
+	color: white;
+}
+
+/*loader*/
+.loader {
+    top: 50%;
+    left: 50%;
+	position: fixed;
+	z-index: 10000;
+	color: #356abc;
+	font-size: 20px;
+	width: 1em;
+	height: 1em;
+	border-radius: 50%;
+	-webkit-animation: load4 1.3s infinite linear;
+	animation: load4 1.3s infinite linear;
+	-webkit-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	transform: translateZ(0);
+}
+@-webkit-keyframes load4 {
+  0%,
+  100% {
+    box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+  }
+  12.5% {
+    box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+  }
+  25% {
+    box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+  }
+  37.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+  50% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+  62.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+  }
+  75% {
+    box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+  }
+  87.5% {
+    box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+  }
+}
+@keyframes load4 {
+  0%,
+  100% {
+    box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+  }
+  12.5% {
+    box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+  }
+  25% {
+    box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+  }
+  37.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+  50% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+  62.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+  }
+  75% {
+    box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+  }
+  87.5% {
+    box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+  }
+}
